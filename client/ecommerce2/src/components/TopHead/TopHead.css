@@ -1,0 +1,16 @@
+.topHead{
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+.summer-sale-for-all-swim-suits-parent{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.shopnow{
+    padding-left: 20px;
+}
+.dropdown-container{
+    padding-left: 70px;
+}

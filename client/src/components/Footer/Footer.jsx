@@ -42,10 +42,10 @@ const Footer = () => {
           <div class="support">Download App</div>
           <div class="save-3-with">Save $3 with App New User Only</div>
           <img class="qrcode-1-icon" alt="" src={qr}></img>
-        </div>
-        <div className="op5">
+        <div className="op6">
           <img class="appStore" alt="" src={appStore}></img>
           <img class="playStore" alt="" src={play}></img>
+        </div>
         </div>
       </div>
     </div>

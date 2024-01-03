@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 350px;
+}
+.op1, .op2, .op3, .op4,.op5{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 500px;   
+}
+
+.op6{
+    padding-top:9%;
+    padding-right:30px;
+}

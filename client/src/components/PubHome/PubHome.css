@@ -1,0 +1,30 @@
+.blackBack{
+    display: flex;
+    justify-content: right;
+    width: 800px;
+    height: 350px; 
+    background-color: black;
+    
+}
+.iphone{
+    
+    width: 450px;
+    height: 350px;
+}
+
+.blackPub{
+display: flex;
+justify-content: center;
+padding-left: 500px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.upTo10Back{
+    width: 200px;
+    padding-right: 100px;
+    padding-top: 70px;
+    
+}
+.textUpTO10,.shopNow{
+    color: aliceblue;
+}

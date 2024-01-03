@@ -6,6 +6,8 @@ import TopHead from './components/TopHead/TopHead';
 import Footer from './components/Footer/Footer';
 import SIgnUp from './pages/SignUp/SIgnUp';
 import Login from './pages/LogIn/Login';
+import PubHome from './components/PubHome/PubHome';
+import ProductCard from './components/ProductCard/ProductCard';
 
 const App = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
@@ -18,6 +20,8 @@ const App = () => {
         <Route path='/footer' element={<Footer/>}></Route>
         <Route path='/signUp' element={<SIgnUp/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
+        <Route path='/pub' element={<PubHome/>}></Route>
+        <Route path='/prodCard' element={<ProductCard/>}></Route>
       </Routes>
       <Footer/>
     </div>

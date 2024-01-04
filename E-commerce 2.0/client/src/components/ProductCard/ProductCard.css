@@ -1,0 +1,64 @@
+.allCard {
+   padding: 30px;
+   border-color: #050505;
+   border: 2px;
+ }
+ 
+ .prudCard {
+   position: relative;
+   width: 250px;
+   height: 250px;
+   background-color: #e6e6e6;
+ }
+ 
+ .prodImg {
+   padding: 40px;
+ }
+ 
+ .addToCart {
+   position: absolute;
+   top: 220px;
+   left: 0;
+   width: 100%;
+   height: 15%;
+   background-color: rgb(8, 8, 8);
+   display: none;
+   align-items: center;
+   justify-content: center;
+   color: #e6e6e6;
+   cursor: pointer;
+ }
+ 
+ .prudCard:hover .addToCart {
+   display: flex;
+ }
+ 
+ .productDetails {
+   background-color:white;
+   width: 250px;
+   height: 90px;
+   color: #050505;
+ }
+ 
+ .price {
+   display: flex;
+ }
+ .oldPrice{
+   padding-left: 10px;
+ }
+ 
+ .starRating {
+   display: flex;
+ }
+ 
+ .star {
+   font-size: 20px;
+   margin-right: 5px;
+   color: gold;
+   cursor: pointer;
+ }
+ 
+ .empty {
+   color: #ccc;
+ }
+ 

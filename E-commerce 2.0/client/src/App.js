@@ -8,6 +8,7 @@ import SIgnUp from './pages/SignUp/SIgnUp';
 import Login from './pages/LogIn/Login';
 import PubHome from './components/PubHome/PubHome';
 import ProductCard from './components/ProductCard/ProductCard';
+import HomePage from './pages/HomePage/HomePage';
 
 const App = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/pub' element={<PubHome/>}></Route>
         <Route path='/prodCard' element={<ProductCard/>}></Route>
+        <Route path='/home' element={<HomePage/>}></Route>
       </Routes>
       <Footer/>
     </div>

@@ -1,0 +1,71 @@
+.homeHead{
+    display: flex;
+    justify-content: left;
+}
+.categList{
+    width:200px;
+    padding-top: 40px;
+    padding-left: 30px;
+    border: 2px solid rgb(228, 220, 220);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    
+}
+.cardPlace{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    width: 100%;
+    height: 440px;
+    border: 2px solid rgb(228, 220, 220);
+    border-left: none;
+    border-right: none;
+}
+.homeBody{
+    padding: 58px;
+}
+.card{
+    padding: 20px;
+    
+}
+.flashSalesPlace{
+    display: flex;
+    justify-content:left;
+
+}
+.duration{
+    display: flex;
+    justify-content: center;
+    padding-left:60px ;
+}
+.durationDay , .durationHours , .durationMinutes , .durationSeconds{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.durationTime{
+    display: flex;
+    justify-content: center;
+}
+.showButt{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.showMore{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    color: aliceblue;
+    background-color:#db4444;
+    border: none;
+    border-radius: 8px;
+    padding-top: 20px;
+    transition: background-color 0.3s;
+}
+.showMore:hover {
+    background-color: #a63131;
+  }
